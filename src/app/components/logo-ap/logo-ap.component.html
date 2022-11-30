@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="container">
+        <div>
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="contacto">
+            <a href="https://github.com/S-D-ESPECHE"><img src="../../../assets/signo-de-github.png" id="github"></a>
+            <a href="mailto:espeche.s.d@gmail.com"><img src="../../../assets/gmail.png" id="gmail"></a>
+            <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!isLogged">LOGIN</button>
+            <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="isLogged">Cerrar Session</button>
+        </div>
+    </div>
+</div>

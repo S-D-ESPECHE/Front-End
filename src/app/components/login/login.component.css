@@ -1,0 +1,19 @@
+/* .gradient-custom {
+    
+ 
+    background: #0985aa ;
+    
+    
+    background: -webkit-linear-gradient(to right, rgb(98, 1, 201), rgba(37, 117, 252, 1));
+    
+    
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    
+
+    }
+*/
+
+section{
+    background-color: black;
+}

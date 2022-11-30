@@ -1,0 +1,21 @@
+/*img{
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    object-fit: cover;
+    margin: 0%;
+}*/    
+img{
+    position: relative;
+    height: 900px;
+    background-size: contain;
+    background-repeat: round;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
