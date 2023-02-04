@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  apiUrl: 'https://back-end-9rei-npy9hbupl-s-d-espeche.vercel.app'
 };
 
 /*
