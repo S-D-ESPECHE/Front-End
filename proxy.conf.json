@@ -1,0 +1,8 @@
+{
+    "/auth/*":{
+        "target": "https://back-end01.up.railway.app",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

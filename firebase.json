@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "portfolio-01-b02d8",
+    "public": "dist/proyecto-portfolio-s.espeche",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
